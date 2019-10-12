@@ -1,0 +1,9 @@
+Topic Exchange
+1、可以使用通配符进行模糊匹配
+2、符号"#"：匹配一个词或者多个词
+3、符号"*"：匹配不多不少一个词
+
+例如：
+logger.# 能匹配到logger.aaa.bbb
+logger.* 只能匹配到logger.aaa
+
